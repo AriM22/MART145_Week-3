@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>Core & Co.</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#home">CORE & CO</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#fitness">FITNESS</a></li>
+        <li><a href="#wellness">WELLNESS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>Your Body, Your Journey</h1> 
+  <p>Find your perfect fitness, movement, and wellness plan for your everyday life.</p> 
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>More Than the Mirror</h2><br>
+      <h4>Wellness is more than what you see in the mirror. At Core & Co we priortize how you want your body to feel. If you are interested in buliding up your muscles, relaxing your mind, or even practicing balance it is our misson to help you along your journey</h4><br>
+      <br>
+	  <a href="#wellness" class="btn btn-default btn-lg">LEARN MORE</a>
+	<br>
+      <img src="images\green.jpg" alt="Fitness" class="img-responsive">
+    </div>
+  </div>
+</div>
+
+<div id="fitness" class="container-fluid text-center">
+      <h2>Find Your Path</h2><br>
+      <h4> Build strenth, improve endurance, and create a routine that works for you.</h4><br>
+	<div class="row">
+		<div class="col-sm-4">
+			<img src="images/strength.jpg" alt="Strength training" class="img-responsive">
+			<h3>STRENGTH</h3>
+			<p>Strenghten your muscles as well as challenge yourself. </p>
+		</div>
+		
+		<div class="col-sm-4">
+			<img src="images/running.jpg" alt="Running" class="img-responsive">
+			<h3>MOVEMENT</h3>
+			<p>Stay active and move your body as part of your daily routine.</p>
+		</div>
+		<div class="col-sm-4">
+			<img src="images/yoga.jpg" alt="Yoga" class="img-responsive">
+			<h3>FLEXIBILITY</h3>
+			<p>Improve mobility, flexibility, and balance through mindful movement.</p>
+		</div>
+	</div>
+</div>
+<div id="wellness" class="container-fluid">
+
+	<div class="wellness-heading">
+		<h2>The Everyday Edit</h2>
+		<p>Small things that make a difference</p>
+	</div>
+	<div class="wellness-topic">
+		<img src="images/peacefulbedroom.jpg" alt="Peaceful Bedroom">
+		<div class="wellness-text">
+			<h3>Rest &amp; Reset</h3></p>
+		</div>
+	</div>
+
+
+	<div class="wellness-topic">
+		<img src="images/journaling.jpg" alt="Wellness journal">
+		<div class="wellness-text">
+			<h3>Daily Habits</h3>
+			<p>Finding simple routines that fit your lifestyle.</p>
+		</div>
+	</div>
+	<div class="wellness-topic">
+		<img src="images/food.jpg" alt="Eating Well">
+		<div class="wellness-text">
+			<h3>Eating Well</h3>
+			<p>Making balanced food a priority throughout your day.</p>
+		</div>
+	</div>
+</div>
+<div id="wellness-form" class="container-fluid">
+
+	<div class="text-center">
+		<h2>Personalize Your Path to Wellness</h2>
+		<p>Tell us what your interests are and a little about your health.</p>
+	</div>
+	
+	<form action="#" method="POST" autocomplete="on">
+		<div class="form-group">
+			<label for="wellness-name">Your Name</label>
+			<input type="text" class="form-control"
+			id="wellness-name" name="Name"
+			placeholder="Enter you name" required>
+		</div>
+		
+		<div class="form-group">
+			<label for="wellness-email">Email Address</label>
+			<input type="email" class="form-control"
+			id="wellness-email" name="email"
+			placeholder="Enter your email" required>
+		</div>
+		
+		<div class="form-group">
+			<label>What is your mail wellness goal?</labe>
+			
+			<div>
+				<input type="radio" name="goal" value="nutrition" required>
+				Improve nutrtion
+			</div>
+			
+			<div>
+				<input type="radio" name="goal" value="habits">
+				Build healty habits
+			</div>
+			
+			<div>
+				<input type="radio" name="fitness">
+				Improve fitness
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label>What topics interest you?</label>
+			
+			<div>
+				<input type="checkbox" name="interests" value="nutrition">
+				Nutrition
+			</div>
+			
+			<div>
+				<input type="checkbox" name="interests" value="recovery">
+				Recovery
+			</div>
+			
+			<div>
+				<input type="checkbox" name="interests" value="Exercise">
+				Exercise
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label for="activity">How ofter are you physically active?</label>
+			
+			<select class="form-control" id="activity" name="activity">
+				<option value="">Choose an option</option>
+				<option value="">Daily</option>
+				<option value="">A few times a week</option>
+				<option value="">Once a week</option>
+				<option value="">Not very often</option>
+			</select>
+		</div>
+		
+		<div class="form-group">
+			<label for="comments">Anything else you'd like to share?</label>
+			<textarea class="form-control" id="comments"
+			name="comments" rows="4" placeholder="Write your thoughts here..."
+			maxlength="300"></textarea>
+		</div>
+		
+		<button type="submit" class="btn btn-default">
+			Submit Assessment
+		</button>
+		
+	</form>
+</div>
+		
+<div id="contact" class="container-fluid text-center">
+
+
+	<h2> Get in Touch</h2>
+	<p>If you have any questions or just want send a message I would love to hear!</p>
+	
+		<form>
+			<div class="form-group">
+				<input type="text" class="form-control"
+				placeholder="Your Name">
+			</div>
+		
+			<div class="form-group">
+				<input type="email" class="form-control"
+				placeholder="Your Email">
+				</div>
+		
+			<div class="form-group">
+				<textarea class="form-control" rows="5"
+				placeholder="Write your message here...."></textarea>
+			</div>
+		
+			<button type="button" class="btn btn-default">
+				Send Message
+			</button>
+		</form>
+</div>
+
+<footer id="footer">
+	<h2>Core & Co.</h2>
+	<div class="footer-links">
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<a href="#fitness">Fitness</a>
+		<a href="#wellness">Wellness</a>
+		<a href="#contact">Contact</a>
+	</div>
+	<hr>
+	
+	<p class="copyright">
+		&copy; 2026 Core &amp; Co. All rights reserved.
+	</p>
+</footer>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
